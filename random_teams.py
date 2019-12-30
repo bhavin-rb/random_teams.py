@@ -18,12 +18,9 @@ def random_team(q):
     for i in group_1:
         if i in group_1:
             team.remove(i)
-    # print("Teams in Group 1 are {0}".format(Group_1))
-
+            
     group_2 = random.sample(team, len(group_B))
-    # print("Teams in Group 2 are {0}".format(Group_2))
-    # print("Teams in Group 1 are {0} \nTeams in Group 2 are {1}".format(Group_1, Group_2))
-
+    
     return print(f"Teams in Group 1 are {group_1} \nTeams in Group 2 are {group_2}")
 
 
